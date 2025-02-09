@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Contact Me</h1>
+
+        <div class="contact-info">
+            <div class="info-container">
+                <h3>Email</h3>
+                <p>quaynor@ghana.com</p>
+            </div>
+            <div class="info-container">
+                <h3>Office</h3>
+                <p>Science Building, Department of Computer Science and I T</p>
+            </div>
+            <div class="info-container">
+                <h3>Phone</h3>
+                <p>(+233) 202125412</p>
+            </div>
+        </div>
+        <h2>Office Hours</h2>
+        <table class="table">
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Location</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>10:00 AM - 12:00 PM</td>
+                <td>Office at Science Building</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>2:00 PM - 4:00 PM</td>
+                <td>Office at Science Building</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>1:00 PM - 3:00 PM</td>
+                <td>Virtual (Zoom)</td>
+            </tr>
+        </table>
+        <div class="contact-form">
+            <h2>Send Message</h2>
+            <form action="Group20.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>I am a:</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="role" value="student">
+                            Student
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="role" value="researcher">
+                            Researcher
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="role" value="other">
+                            Other
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Interested in:</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="research">
+                            Research Collaboration
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="courses">
+                            Course Information
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="interest" value="advising">
+                            Guidance on academics
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6147.164679079036!2d-1.2915290213116923!3d5.11584724728757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfddfed6fc798569%3A0x7531c2a02fe48636!2sUniversity%20Of%20Cape%20Coast!5e1!3m2!1sen!2sgh!4v1739104062033!5m2!1sen!2sgh" width="840" height="600"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+</html>
