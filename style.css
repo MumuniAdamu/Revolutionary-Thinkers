@@ -383,14 +383,3 @@ footer {
     bottom: 0;
 }
 
-@media (max-width: 600px) {
-    frameset {
-        display: block;
-    }
-
-    frame {
-        width: 50%;
-        height: 50vh;
-    }
-}
-
