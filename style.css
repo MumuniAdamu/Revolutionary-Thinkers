@@ -383,3 +383,15 @@ footer {
     bottom: 0;
 }
 
+@media (max-width: 600px) {
+    frameset {
+        cols="40%, 60%";
+        display: block;
+    }
+
+    frame {
+        width: 100%;
+        height: 50vh;
+    }
+}
+
